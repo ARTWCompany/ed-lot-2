@@ -1,0 +1,41 @@
+{
+  "product_index": {
+    "settings": {
+      "analysis": {
+        "analyzer": {
+          "ngram_analyzer": {
+            "type": "custom",
+            "tokenizer": "ngram_tokenizer",
+            "filter": ["lowercase", "asciifolding"]
+          }
+        }
+      }
+    },
+    "mappings": {
+      "properties": {
+        "category_name": {
+          "type": "text",
+          "analyzer": "ngram_analyzer"
+        },
+        "category_id": {
+          "type": "integer"
+        },
+        "products": {
+          "type": "nested",
+          "properties": {
+            "name": {
+              "type": "text",
+              "analyzer": "ngram_analyzer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "is_electronic": {
+                "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "category_name": "Учебники",
+    "category_id": 1,
+    "products": [
+      {
+        "name": "Алегбра",
+        "id": 1,
+        "is_electronic": true
+      },
+      {
+        "name": "География",
+        "id": 2,
+        "is_electronic": true
+      },
+      {
+        "name": "Литература",
+        "id": 3,
+        "is_electronic": false
+      }
+    ]
+  },
+  {
+    "category_name": "Карты, атласы",
+    "category_id": 2,
+    "products": [
+      {
+        "name": "Атлас мира",
+        "id": 4,
+        "is_electronic": true
+      },
+      {
+        "name": "Атлас России",
+        "id": 5,
+        "is_electronic": true
+      },
+      {
+        "name": "Атлас политический",
+        "id": 6,
+        "is_electronic": true
+      }
+    ]
+  },
+  {
+    "category_name": "Рабочие тетради",
+    "category_id": 3,
+    "products": [
+      {
+        "name": "Рабочая тетрадь по русскому языку",
+        "id": 7,
+        "is_electronic": true
+      },
+      {
+        "name": "Рабочая тетрадь по математике",
+        "id": 8,
+        "is_electronic": true
+      },
+      {
+        "name": "Рабочая тетрадь по обществознанию",
+        "id": 9,
+        "is_electronic": true
+      }
+    ]
+  },
+  {
+    "category_name": "ОГЭ, ЕГЭ, ВПР",
+    "category_id": 4,
+    "products": [
+      {
+        "name": "Подготовка к ОГЭ",
+        "id": 10,
+        "is_electronic": false
+      },
+      {
+        "name": "Подготовка к ЕГЭ",
+        "id": 11,
+        "is_electronic": false
+      }
+    ]
+  }
+]
